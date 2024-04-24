@@ -1,0 +1,6 @@
+@import '_tailwind';
+
+h1 {
+    padding: 100px;
+    @apply text-8xl italic;
+}
