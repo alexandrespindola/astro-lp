@@ -1,8 +1,35 @@
-import { defineConfig } from 'astro/config';
+// import { defineConfig } from 'astro/config';
 
+// import tailwind from "@astrojs/tailwind";
+
+// // https://astro.build/config
+// export default defineConfig({
+//   integrations: [tailwind()]
+// });
+
+import { defineConfig } from 'astro/config';
+import { fileURLToPath } from 'url';
+import path, { dirname } from 'path';
 import tailwind from "@astrojs/tailwind";
 
-// https://astro.build/config
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
 export default defineConfig({
-  integrations: [tailwind()]
+  integrations: [tailwind()],
+  vite: {
+    resolve: {
+      alias: {
+        '@/': `${path.resolve(__dirname, 'src')}/`
+      }
+    },
+    css: {
+      preprocessorOptions: {
+        scss: {
+          // path to your scss variables
+          additionalData: `@import "@/styles/vars.scss";`
+        }
+      }
+    }
+  }
 });
