@@ -1,0 +1,13 @@
+---
+interface Props {
+  urlImage?: string;
+  text?: string;
+}
+
+const { urlImage, text } = Astro.props;
+---
+
+<div class="text-center p-4">
+  <img src={urlImage} alt="" class="w-16 m-auto" />
+  <p class="mt-4">{text}</p>
+</div>

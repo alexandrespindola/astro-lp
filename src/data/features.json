@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Encrypted",
+        "description": "Your data is encrypted and stored in our secure servers."
+    },
+    {
+        "title": "Open source",
+        "description": "Our code is open source and available for review."
+    },
+    {
+        "title": "Fast",
+        "description": "Fast services and support for all your needs."   
+    },
+    {
+        "title": "Secure",
+        "description": "Secure services and support."
+    },
+    {
+        "title": "Free",
+        "description": "Free with no hidden costs."
+    },
+    {
+        "title": "Cross-platform",
+        "description": "Cross-platform support for all your devices."
+    }
+]

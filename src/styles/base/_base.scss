@@ -1,5 +1,6 @@
 @import '_tailwind';
 
-h1 {
-    @apply text-8xl text-center p-5 cursor-pointer;
+body {
+  @apply bg-zinc-800;
+  color: whitesmoke;
 }
