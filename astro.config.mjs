@@ -1,12 +1,3 @@
-// import { defineConfig } from 'astro/config';
-
-// import tailwind from "@astrojs/tailwind";
-
-// // https://astro.build/config
-// export default defineConfig({
-//   integrations: [tailwind()]
-// });
-
 import { defineConfig } from 'astro/config';
 import { fileURLToPath } from 'url';
 import path, { dirname } from 'path';
@@ -16,8 +7,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default defineConfig({
-  site: 'https://alexandrespindola.github.io',
-  base: 'astro-lp',
+  // site: 'https://alexandrespindola.github.io',
+  // base: 'astro-lp',
   integrations: [tailwind()],
   vite: {
     resolve: {
