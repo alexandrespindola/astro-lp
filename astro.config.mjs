@@ -16,6 +16,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default defineConfig({
+  site: 'https://alexandrespindola.github.io',
+  base: 'astro-lp',
   integrations: [tailwind()],
   vite: {
     resolve: {
