@@ -13,7 +13,7 @@
   "dependencies": {
     "@astrojs/check": "^0.5.10",
     "@astrojs/tailwind": "^5.1.0",
-    "astro": "^4.6.4",
+    "astro": "^4.7.0",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "postcss-import": "^16.1.0",
